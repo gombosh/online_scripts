@@ -1,4 +1,5 @@
 #todo add check if $1 exists
+echo "START"
 echo '{"insecure-registries" : [ "' > /etc/docker/daemon.json
 echo $1 >> /etc/docker/daemon.json
 echo '" ]}' >> /etc/docker/daemon.json
